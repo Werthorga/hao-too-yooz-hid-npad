@@ -7,10 +7,10 @@
 int main ()
 {
 	consoleInit(NULL);
-    padConfigureInput(MAX_PLYR_COUNT,HidNpadStyleSet_NpadStandard);
+    	padConfigureInput(MAX_PLYR_COUNT,HidNpadStyleSet_NpadStandard);
 
-    PadState pads[2];
-    padInitializeAny(&pads[0]);
+    	PadState pads[2];
+    	padInitializeAny(&pads[0]);
 	padInitializeAny(&pads[1]);
 	
 	HidLaControllerSupportArg arg;
